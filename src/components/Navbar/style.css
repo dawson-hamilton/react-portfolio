@@ -1,0 +1,11 @@
+.navbar {
+    background-image: linear-gradient(to right, #fe6076, #f5ce62, #667eea, #84fab0);
+    height: 7%;
+}
+
+.nav-link {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(46, 46, 46);
+    font-family: 'Amatic SC', cursive;
+}
