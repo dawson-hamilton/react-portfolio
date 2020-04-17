@@ -8,7 +8,7 @@ function ProfileImage() {
         <Row>
             <Col size="md-5"></Col>
             <Col size="md-2">
-                <img src={image} className="profileImage" />
+                <img src={image} className="profileImage" alt="dawson hamilton" />
             </Col>
             <Col size="md-5"></Col>
         </Row>

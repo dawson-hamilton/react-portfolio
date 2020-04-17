@@ -38,7 +38,7 @@ function Navbar() {
                     </li>
                     <li className="nav-item">
                         <Link
-                            to="/search"
+                            to="/tech"
                             className={window.location.pathname === "/tech" ? "nav-link active" : "nav-link"}
                             id={"three"}
                         >
@@ -47,7 +47,7 @@ function Navbar() {
                     </li>
                     <li className="nav-item">
                         <Link
-                            to="/search"
+                            to="/contact-info"
                             className={window.location.pathname === "/contact-info" ? "nav-link active" : "nav-link"}
                             id={"four"}
                         >
