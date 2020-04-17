@@ -1,0 +1,14 @@
+.profileImage {
+    margin-top: 30%;
+    margin-left: -10%;
+    height:330px;
+    transform: rotate(90deg);
+    border-radius: 50%;
+    box-shadow: 0 4px 15px 0 rgba(255, 255, 255, 0.75);
+}
+
+.underImageInfo {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
