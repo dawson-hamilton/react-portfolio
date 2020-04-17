@@ -1,6 +1,8 @@
 import React from "react";
 import Title from "../components/Title";
 import { Row, Col, Container } from "../components/Grid";
+import ListItem from "../components/ListItem";
+import "../components/ListItem/style.css";
 
 function Tech() {
     return (
@@ -11,45 +13,118 @@ function Tech() {
                 blankLength="md-5"
                 length="md-2"
             />
-            <div>
-                <div id="tech" className="technologies container">
-                    <div className="tech center">
-                        <div className="icons col s6 m3 ">
-                            <i className="fab fa-react blue-text text-lighten-3" style={{ fontSize: '5rem' }}></i><br />
-                            <p style={{ fontSize: "2rem", color: "#555555" }}>React</p>
-                        </div>
-                        <div className="icons col s6 m3 ">
-                            <i className="fab fa-html5 red-text text-lighten-3" style={{ fontSize: '5rem' }}></i><br />
-                            <p style={{ fontSize: "2rem", color: "#555555" }}>HTML5</p>
-                        </div>
-                        <div className="icons col s6 m3">
-                            <i className="fab fa-css3-alt blue-text text-lighten-3" style={{ fontSize: '5rem' }}></i>
-                            <p style={{ fontSize: "2rem", color: "#555555" }}>CSS</p>
-                        </div>
-                        <div className="icons col s6 m3">
-                            <i className="fab fa-js yellow-text text-lighten-3" style={{ fontSize: '5rem' }}></i>
-                            <p style={{ fontSize: "2rem", color: "#555555" }}>JavaScript</p>
-                        </div>
-                    </div>
-                    <div className="tech center">
-                        <div className="icons col s6 m3">
-                            <i className="fab fa-node-js green-text text-lighten-3" style={{ fontSize: '5rem' }}></i>
-                            <p style={{ fontSize: "2rem", color: "#555555" }}>Node</p>
-                        </div>
-                        {/* <div className="icons col s6 m3">
-                            <img src={MongoDb} style={{ height: "4.5rem" }} alt="mysql-workbench" />
-                            <p style={{ fontSize: "2rem", color: "#555555" }}>MongoDb</p>
-                        </div>
-                        <div className="icons col s6 m3">
-                            <img src={MySql} style={{ height: '4.5rem' }} alt="mysql-workbench"
-                            />
-                            <p style={{ fontSize: "2rem", color: "#555555" }}>MySql</p>
-                        </div> */}
-                    </div>
-
-                </div>
+            <Row>
+                <Col size="md-2"></Col>
+                <Col size="md-2">
+                    <h1 className="techTitles">The Browser: </h1>
+                    <ul className="list-group">
+                        <ListItem
+                            listItem="HTML"
+                        />
+                        <ListItem
+                            listItem="CSS"
+                        />
+                        <ListItem
+                            listItem="JavaScript"
+                        />
+                        <ListItem
+                            listItem="jQuery"
+                        />
+                        <ListItem
+                            listItem="Bootstrap"
+                        />
+                        <ListItem
+                            listItem="React.js"
+                        />
+                    </ul>
+                </Col>
+                <Col size="md-1"></Col>
+                <Col size="md-2">
+                    <h1 className="techTitles">API Interaction: </h1>
+                    <ul className="list-group">
+                        <ListItem
+                            listItem="APIs"
+                        />
+                        <ListItem
+                            listItem="JSON"
+                        />
+                        <ListItem
+                            listItem="AJAX"
+                        />
+                        <ListItem
+                            listItem="Real Time Cloud Database via Firebase"
+                        />
+                    </ul>
+                </Col>
+            </Row>
+            <Row>
+                <Col size="md-2"></Col>
+                <Col size="md-2">
+                    <h1 className="techTitles">Databases: </h1>
+                    <ul className="list-group">
+                        <ListItem
+                            listItem="MySQL"
+                        />
+                        <ListItem
+                            listItem="MongoDB"
+                        />
+                        <ListItem
+                            listItem="Sequelize"
+                        />
+                        <ListItem
+                            listItem="Mongoose"
+                        />
+                    </ul>
+                </Col>
+                <Col size="md-1"></Col>
+                <Col size="md-2">
+                    <h1 className="techTitles">Dev Tools: </h1>
+                    <ul className="list-group">
+                        <ListItem
+                            listItem="Heroku"
+                        />
+                        <ListItem
+                            listItem="Git"
+                        />
+                        <ListItem
+                            listItem="GitHub"
+                        />
+                    </ul>
+                </Col>
+            </Row>
+            <div className="bottom">
+                <h1 className="techTitles">Server Side: </h1>
+                <ul className="list-group">
+                    <ListItem
+                        listItem="Template Engines"
+                    />
+                    <ListItem
+                        listItem="Sessions"
+                    />
+                    <ListItem
+                        listItem="Writing Tests"
+                    />
+                    <ListItem
+                        listItem="Node.js"
+                    />
+                    <ListItem
+                        listItem="Express.js"
+                    />
+                    <ListItem
+                        listItem="Creating APIs"
+                    />
+                    <ListItem
+                        listItem="MVC"
+                    />
+                    <ListItem
+                        listItem="User Authentication"
+                    />
+                    <ListItem
+                        listItem="ORM"
+                    />
+                </ul>
             </div>
-        </Container>
+        </Container >
     );
 }
 export default Tech;

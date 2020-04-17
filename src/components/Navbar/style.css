@@ -1,6 +1,8 @@
 .navbar {
     background-image: linear-gradient(to right, #fe6076, #f5ce62, #667eea, #84fab0);
     height: 7%;
+    margin: 0%;
+    padding: 0%;
 }
 
 .nav-link {

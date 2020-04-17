@@ -1,0 +1,20 @@
+.techTitles {
+    color: #667eea;
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+}
+
+.listItems {
+    font-family: 'Amatic SC', cursive;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.bottom {
+    position: relative;
+    float: right;
+    margin-top: -763px;
+    margin-right: 18%;
+    width: 15%;
+}
