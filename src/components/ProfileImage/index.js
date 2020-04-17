@@ -1,5 +1,5 @@
 import React from "react";
-import image from "./dawson-hamilton.jpg";
+import image from "../../images/dawson-hamilton.jpg";
 import { Row, Col } from "../Grid"
 import "./style.css";
 
