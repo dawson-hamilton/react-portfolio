@@ -10,9 +10,9 @@ function Navbar() {
                 <ul className="navbar-nav">
                     <li className="nav-item">
                         <Link
-                            to="/"
+                            to="/react-portfolio"
                             className={
-                                window.location.pathname === "/" || window.location.pathname === "home"
+                                window.location.pathname === "/react-portfolio" || window.location.pathname === "/react-portfolio/home"
                                     ? "nav-link active" : "nav-link"}
                         >
                             Home
