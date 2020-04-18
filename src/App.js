@@ -14,7 +14,7 @@ function App() {
       <div>
         <Navbar />
         <Wrapper>
-          <Route exact path="/" component={Home} />
+          <Route exact path="/react-portfolio" component={Home} />
           <Route exact path="/about-me" component={AboutMe} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/tech" component={Tech} />
