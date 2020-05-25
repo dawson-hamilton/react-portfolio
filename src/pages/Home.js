@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "../components/Grid";
 import ProfileImage from "../components/ProfileImage";
+import "../components/ProfileImage/style.css";
 
 function Home() {
     return (

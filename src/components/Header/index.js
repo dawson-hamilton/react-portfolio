@@ -10,8 +10,8 @@ function Header() {
         <Navbar expand="lg" className="navbar">
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="mr-auto">
-                    <Nav.Link><Link to="/react-portfolio" className="headerLinks">Home</Link></Nav.Link>
+                <Nav className="mr-auto" id="navbarLinks">
+                    <Nav.Link><Link to="/react-portfolio" className="headerLinks" id="home">Home</Link></Nav.Link>
                     <Nav.Link><Link to="/about-me" className="headerLinks" id="one">About Me</Link></Nav.Link>
                     <Nav.Link><Link to="/portfolio" className="headerLinks" id="two">Portfolio</Link></Nav.Link>
                     <Nav.Link><Link to="/tech" className="headerLinks" id="three">Tech</Link></Nav.Link>

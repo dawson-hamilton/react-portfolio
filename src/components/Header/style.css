@@ -3,8 +3,17 @@
     height: 7%;
     margin: 0%;
     padding: 0%;
-    justify-content: center!important;
 }
+
+#navbarLinks {
+    margin-left: 725px;
+}
+
+@media only screen and (max-width: 900px) {
+    #navbarLinks {
+      margin-left: 10px;
+    }
+  }
 
 .headerLinks {
     font-size: 30px;
@@ -38,4 +47,8 @@
 
 #four:hover {
     color: #84fab0;
+}
+
+#home:hover {
+    color: dimgray;
 }
