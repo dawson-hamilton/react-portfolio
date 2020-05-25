@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
+import Header from "./components/Header";
 import Wrapper from "./components/Wrapper";
 import Home from "./pages/Home";
 import AboutMe from "./pages/AboutMe";
@@ -12,7 +12,7 @@ function App() {
   return (
     <Router>
       <div>
-        <Navbar />
+        <Header />
         <Wrapper>
           <Route exact path="/react-portfolio" component={Home} />
           <Route exact path="/about-me" component={AboutMe} />

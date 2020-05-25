@@ -9,7 +9,7 @@ function Contact() {
                 <Col size="md-4"></Col>
                 <Col size="md-4">
                     <h1 className="contactInfo">Resume: <a href="https://docs.google.com/document/d/1wrABAzS570aItIB4O-zLbPnngBzuIvPIwAM0soBCSe8/edit?usp=sharing" target="blank">
-                        <i class="fas fa-file-pdf" id="resume"></i></a></h1>
+                        <i class="fas fa-file" id="resume"></i></a></h1>
                 </Col>
                 <Col size="md-4"></Col>
             </Row>
