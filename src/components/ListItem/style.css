@@ -18,3 +18,12 @@
     margin-right: 18%;
     width: 15%;
 }
+
+@media only screen and (max-width: 900px) {
+    .bottom {
+        top: 763px;
+        left: 62px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
