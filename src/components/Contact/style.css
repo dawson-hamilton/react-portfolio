@@ -20,3 +20,21 @@
 #contactIcons:hover {
     color: #84fab0;
 }
+
+@media only screen and (max-width: 900px) {
+    #contactIcons {
+        margin-left: 40px;
+    }
+
+    #email {
+        font-size: 35px;
+    }
+
+    .contactInfo {
+        font-size: 55px;
+    }
+
+    #number {
+        font-size: 65px;
+    }
+}

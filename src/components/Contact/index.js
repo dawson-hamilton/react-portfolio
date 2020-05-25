@@ -16,14 +16,14 @@ function Contact() {
             <Row>
                 <Col size="md-3"></Col>
                 <Col size="md-6">
-                    <h1 className="contactInfo">email: dawsondhamilton@gmail.com</h1>
+                    <h1 className="contactInfo" id="email">email: <a href="mailto:dawsondhamilton@gmail.com">dawsondhamilton@gmail.com</a></h1>
                 </Col>
                 <Col size="md-3"></Col>
             </Row>
             <Row>
                 <Col size="md-3"></Col>
                 <Col size="md-6">
-                    <h1 className="contactInfo">phone number: 385-274-8009</h1>
+                    <h1 className="contactInfo" id="number">phone number: 385-274-8009</h1>
                 </Col>
                 <Col size="md-3"></Col>
             </Row>
