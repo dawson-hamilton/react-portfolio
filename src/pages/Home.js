@@ -12,7 +12,7 @@ function Home() {
                 <Col size="md-6" className="underImage">
                     <h1 className="underImageInfo">Dawson Hamilton</h1>
                     <hr className="hr" />
-                    <h1 className="underImageInfo">Web Developer</h1>
+                    <h1 className="underImageInfo">Full-Stack Web Developer</h1>
                 </Col>
                 <Col size="md-3"></Col>
             </Row>
