@@ -14,7 +14,7 @@ function Header() {
                     <Nav.Link><Link to="/react-portfolio" className="headerLinks" id="home">Home</Link></Nav.Link>
                     <Nav.Link><Link to="/about-me" className="headerLinks" id="one">About Me</Link></Nav.Link>
                     <Nav.Link><Link to="/portfolio" className="headerLinks" id="two">Portfolio</Link></Nav.Link>
-                    <Nav.Link><Link to="/tech" className="headerLinks" id="three">Tech</Link></Nav.Link>
+                    <Nav.Link><Link to="/tech" className="headerLinks" id="three">Tech Skills</Link></Nav.Link>
                     <Nav.Link><Link to="/contact-info" className="headerLinks" id="four">Contact Info</Link></Nav.Link>
                 </Nav >
             </Navbar.Collapse >

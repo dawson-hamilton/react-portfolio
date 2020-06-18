@@ -8,7 +8,7 @@ function Tech() {
     return (
         <Container fluid>
             <Title
-                title="Tech"
+                title="Tech Skills"
                 color="#667eea"
                 blankLength="md-5"
                 length="md-2"

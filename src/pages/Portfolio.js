@@ -5,7 +5,7 @@ import { Container, Row, Col } from "../components/Grid";
 import cocktail from "../images/cocktail-searcher.png";
 import photo from "../images/photo-page.png";
 import weather from "../images/weather-page.png";
-import planner from "../images/planner-page.png";
+import generator from "../images/generator.png";
 import budget from "../images/budget-page.png";
 import gigit from "../images/gigit-page.png";
 
@@ -98,13 +98,14 @@ function Portfolio() {
                 <br />
                 <Col size="md-2">
                     <Card
-                        title="Daily Planner"
-                        itemOne="Website where you can keep track of important events in your busy life, and see what time bars are past, current, and future."
+                        title="Random Password Generator"
+                        itemOne="Website where you can generate random passwords t6o keep your accounts safe"
                         itemTwo="This website was one that I created on my own so I did all the front and back end work."
                         itemThree="For this website I used HTML, CSS, javaScript, jQuery, Bootstrap"
-                        src={planner}
-                        alt="daily planner home page"
-                        href="https://dawson-hamilton.github.io/daily-planner/"
+                        aHref="https://github.com/dawson-hamilton/random-password"
+                        src={generator}
+                        alt="password generator home page"
+                        href="https://dawson-hamilton.github.io/random-password/"
                     />
                 </Col>
             </Row>
